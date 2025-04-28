@@ -1,0 +1,25 @@
+open powershell
+
+forge login - official acc
+
+forge create 
+? Select a context: Confluence
+? Select a category: Custom UI
+? Select a template: confluence-global-settings
+
+Inside forge :
+
+For the first time
+cd static/hello-world
+npm install
+npm run build
+cd ../..
+forge deploy
+forge install 
+
+Afterwards
+cd static/hello-world
+npm run build
+cd ../..
+forge deploy
+forge install --upgrade
