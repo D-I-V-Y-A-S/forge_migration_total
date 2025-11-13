@@ -1,6 +1,7 @@
 open powershell
 
 npm install -g @forge/cli
+npm config get prefix -- to get current path
 
 forge login - official acc
 
