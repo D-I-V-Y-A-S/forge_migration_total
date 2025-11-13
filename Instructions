@@ -1,5 +1,7 @@
 open powershell
 
+npm install -g @forge/cli
+
 forge login - official acc
 
 forge create 
